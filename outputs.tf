@@ -1,7 +1,13 @@
-output "instance_id" {
-  value = aws_instance.free_tier.id
+#output "instance_ami" {
+#  value = aws_instance.web.ami
+#}
+output "instance_ami" {
+  value = aws_instance.web.ami
 }
 
-output "public_ip" {
-  value = aws_instance.free_tier.public_ip
+#output "instance_arn" {
+#  value = aws_instance.web.arn
+#}
+output "instance_arn" {
+  value = aws_instance.web.arn
 }
